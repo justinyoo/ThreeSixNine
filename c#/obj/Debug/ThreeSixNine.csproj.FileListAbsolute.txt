@@ -1,0 +1,5 @@
+D:\Development\ThreeSixNine\c#\bin\Debug\ThreeSixNine.dll
+D:\Development\ThreeSixNine\c#\bin\Debug\ThreeSixNine.pdb
+D:\Development\ThreeSixNine\c#\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\ThreeSixNine\c#\obj\Debug\ThreeSixNine.dll
+D:\Development\ThreeSixNine\c#\obj\Debug\ThreeSixNine.pdb

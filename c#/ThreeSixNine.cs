@@ -4,9 +4,18 @@ using System.Text.RegularExpressions;
 
 namespace OpenTutorials.Quizes
 {
+	/// <summary>
+	/// This represents the 3-6-9 game.
+	/// </summary>
 	public partial class ThreeSixNine
 	{
-		public static string Execute(int maxNumber = 100)
+		/// <summary>
+		/// Performs the 3-6-9 game.
+		/// </summary>
+		/// <param name="maxNumber">Maximum number to perform the 3-6-9 game.</param>
+		/// <returns>Returns the result.</returns>
+		/// <exception cref="ArgumentOutOfRangeException">Throws an exception if maximum number is less than or equal to zero.</exception>
+		public static string Perform(int maxNumber = 100)
 		{
 			List<string> results = new List<string>();
 			try
@@ -20,7 +29,7 @@ namespace OpenTutorials.Quizes
 					}
 				}
 				else
-					throw new ArgumentOutOfRangeException("maxNumber", "maxNumber must be greater than zero.");
+					throw new ArgumentOutOfRangeException("maxNumber", "Maximum number must be greater than zero.");
 			}
 			catch (Exception ex)
 			{

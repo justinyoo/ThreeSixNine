@@ -1,0 +1,35 @@
+<html>
+<script language="javascript">
+
+function count369(n)
+{
+	var nn = Math.floor(n/10); 
+	var m = n%10; 
+	var c =  (m > 0) && (m%3 == 0) ? 1 : 0; 
+	if (nn>0)
+		c += count369(nn); 
+	return c; 
+}
+
+function turn(n)
+{
+	var claps = count369(n); 
+	var str = ""; 
+	if (claps === 0)
+		return n; 
+	for (var i=0; i < claps; i++)
+		str += 'X'
+	return str; 
+}
+
+function do369game(start, end) {
+	for (var i=start; i <= end; i++) {
+		var str = turn(i); 
+		document.write(str); 
+		document.write(', '); 
+	}
+}
+
+do369game(12, 120); 
+</script>
+</html>

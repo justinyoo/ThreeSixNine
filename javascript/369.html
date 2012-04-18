@@ -19,12 +19,13 @@
 			var personIndex = (i-1) % gamer.length;
 			document.write( gamer[personIndex] +' : ' ); //게이머이름 출력
 
-			var str = i+'';
-			var charLen = str.length;
+			var str = (i).toString();//숫자를 문자열로 변경 
+			var strChars = str.split("");//한글자씩 뽑아내기위해 char 배열로 변경
+
 			var has369 = false;
 
-			for(var j=0; j<charLen; j++) {//숫자 자리수만큼 loop 돌면서
-				var digit = str.charAt(j);
+			for(var j=0; j<strChars.length; j++) {//숫자 자리수만큼 loop 돌면서
+				var digit = strChars[j];
 
 				if( is369(digit) ) { //369가 있으면 짝 출력
 					document.write( '짝' );	

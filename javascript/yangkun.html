@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko-KR" xml:lang="ko-KR">
+<head>
+	<title>369</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<script type="text/javascript">
+function do369game(start, end) {
+	var total = '';
+	for (var i=start; i < end; i++) {
+		var str = '' + i, out = '';
+		for (var j = 0, n = str.length; j < n; j++) if(str[j] == '3' || str[j] == '6' || str[j] == '9') out += 'X ';
+		total += ((out == '' ? i : out) + '<br/>');
+	}
+	document.write(total);
+}
+do369game(1, 100);
+</script>
+</body>
+</html>

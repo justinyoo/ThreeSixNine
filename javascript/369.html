@@ -14,22 +14,22 @@ function count369(n)
 function turn(n)
 {
 	var claps = count369(n); 
-	var str = ""; 
 	if (claps === 0)
 		return n; 
+	var str = ""; 
 	for (var i=0; i < claps; i++)
 		str += 'X'
 	return str; 
 }
 
 function do369game(start, end) {
-	for (var i=start; i <= end; i++) {
-		var str = turn(i); 
-		document.write(str); 
+	for (var i=start; i < end; i++) {
+		document.write(turn(i)); 
 		document.write(', '); 
 	}
+	document.write(turn(end)); 
 }
 
-do369game(12, 120); 
+do369game(1, 100); 
 </script>
 </html>

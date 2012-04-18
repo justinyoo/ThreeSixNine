@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript">
+	function is369(digit) {
+		if ( digit!=0 && ( digit % 3 == 0 ) ) {
+			return true;
+		}
+		return false;
+	}
+	function init() {
+		//게임하는 사람들 5명 
+		var gamer = ['범진', '나솔', '이고잉'];
+
+		//100까지 369게임 진행
+		for(var i=1; i<=100; i++) {
+			var personIndex = (i-1) % gamer.length;
+			document.write( gamer[personIndex] +' : ' ); //게이머이름 출력
+
+			var str = (i).toString();//숫자를 문자열로 변경 
+			var strChars = str.split("");//한글자씩 뽑아내기위해 char 배열로 변경
+
+			var has369 = false;
+
+			for(var j=0; j<strChars.length; j++) {//숫자 자리수만큼 loop 돌면서
+				var digit = strChars[j];
+
+				if( is369(digit) ) { //369가 있으면 짝 출력
+					document.write( '짝' );	
+					has369 = true;
+				}
+			}
+
+			//369가 없으면 그냥 숫자 출력
+			if( !has369 ) {
+				document.write( i );	
+			}
+
+			document.write('<br>');
+		}
+	}
+	</script>
+</head>
+<body onload='init();'>
+</body>
+</html>

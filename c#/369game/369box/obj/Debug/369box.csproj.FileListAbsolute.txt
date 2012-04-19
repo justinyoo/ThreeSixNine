@@ -1,0 +1,10 @@
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\369box\bin\Debug\369box.dll
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\369box\bin\Debug\369box.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\369box\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\369box\obj\Debug\369box.dll
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\369box\obj\Debug\369box.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\369box\bin\Debug\369box.dll
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\369box\bin\Debug\369box.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\369box\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\369box\obj\Debug\369box.dll
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\369box\obj\Debug\369box.pdb

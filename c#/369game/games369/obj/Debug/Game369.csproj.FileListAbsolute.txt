@@ -1,0 +1,7 @@
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\obj\Debug\cshapTest.exe
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\obj\Debug\cshapTest.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\bin\Debug\cshapTest.exe
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\bin\Debug\cshapTest.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\bin\Debug\369box.dll
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\bin\Debug\369box.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\369game\games369\obj\Debug\ResolveAssemblyReference.cache

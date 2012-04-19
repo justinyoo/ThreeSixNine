@@ -1,0 +1,7 @@
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\bin\Debug\cshapTest.exe
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\bin\Debug\cshapTest.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\obj\Debug\cshapTest.exe
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\obj\Debug\cshapTest.pdb
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\bin\Debug\369box.dll
+C:\Users\happydeveloper\Documents\Visual Studio 2008\Projects\cshapTest\cshapTest\bin\Debug\369box.pdb

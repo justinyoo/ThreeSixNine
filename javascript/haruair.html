@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>sandbox</title>
+<style>
+  p { float:left; padding:20px; border:1px solid #dadada; margin-right:10px; border-radius:5px; }
+</style>
+<script type="text/javascript">
+
+	game = {
+	
+		init : function(){
+			body = document.getElementsByTagName("body")[0];
+			box = document.createElement("div");
+			box.setAttribute("id","say");
+			document.body.appendChild(box);
+			this.say("이제 시작해봅시다");
+			num = 'start';
+			while(isNaN(num))
+			{
+				num = 100;
+				num = prompt("몇까지 진행할까요?", num);
+			}
+			this.play(num);
+		},
+		
+		say : function(text){
+			box = document.getElementById("say");
+			p = document.createElement("p");
+			textNode = document.createTextNode(text);
+			p.appendChild(textNode);
+			box.appendChild(p);
+		},
+		
+		play : function(limit){
+			for(i=1;i<=limit;i++)
+			{
+				n = i.toString().replace(/[^369]/g,'');
+				if(n.length > 0)
+				{
+					for(m=0,r='';m<n.length;m++)
+					{
+						r += "짝";
+					}
+				}
+				else
+				{
+					r = i;
+				}
+				this.say(r);
+			}
+		}
+		
+	};
+	
+	window.onload = function(){
+		game.init();
+	};
+
+</script>
+</head>
+<body>
+  
+</body>
+</html>

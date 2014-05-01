@@ -40,7 +40,7 @@
                     .ForEach(function(image, index) { // #7
                         $(ul).append(
                             $("<li></li>").append(
-                                $("<img />").attr("src", img)
+                                $("<img />").attr("src", image)
                         ));
                     });
 
